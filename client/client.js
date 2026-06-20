@@ -1,4 +1,4 @@
-const socket = io('http://localhost:3000');
+const socket = io('maskias-production.up.railway.app');
 const bouton = document.getElementById('boutonRejoindre');
 const input = document.getElementById('nomJoueur');
 bouton.addEventListener('click', () => {
